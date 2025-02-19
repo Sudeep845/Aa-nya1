@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" type="Mero" href="img/w.png">
+    <link rel="stylesheet" href="./css/wkwk.css">
+
+
+    <title>Contact Form</title>
+</head>
+<body>
+
+  <div>
+    <div class="contact-form-container">
+        
+        <div class="form-left">
+            
+            <!-- <a href="index.html">  <img src="img/contact1.gif" width="80px"> </a> -->
+
+            <div class="tooltip">
+                <a href="index.html">
+                    <img src="img/add/anya1.jpg" width="80px" alt="Contact">
+                </a>
+                <span class="tooltiptext">Click here to go Home</span>
+            </div>
+            
+            <h1>Have any questions?</h1>
+            <p>Were here to help! <br> Can't find the answer you're looking for? Contact us here and our friendly customer care team will be in touch shortly</p>
+        </div>
+        <div class="form-right">
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-reveal="right">
+
+                <input type="hidden" name="access_key" value="d53e3da4-7b76-4322-bcd5-ba005caa7828">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Name *" required class="input-field">
+                    <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+                </div>
+
+                <textarea name="message" placeholder="Message *" required class="input-field"> </textarea>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <button type="submit" class="btn">Send message</button>
+            </form>
+        </div>    
+    </div>  
+    <p> &copy;2024 Aa:nya. All rights reserved.</p>
+  </div>
+
+</body>
+</html>
